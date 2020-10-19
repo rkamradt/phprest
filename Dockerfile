@@ -19,4 +19,4 @@ RUN wget https://get.symfony.com/cli/installer -O - | bash \
 
 COPY . /var/www
 
-CMD [ "symfony", "server:start"]
+CMD [ "symfony", "server:start" ]
